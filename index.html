@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Creative Portfolio &amp; Digital Archive</title>
+<meta name="description" content="Bilingual personal creative portfolio: video editing, poster design, news writing and digital magazines.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap nav">
+ <a class="logo" href="#top">Portfolio<i></i></a>
+ <nav aria-label="Main">
+  <ul id="menu">
+   <li><a class="l" href="#about" data-i18n="nav_about">About</a></li>
+   <li><a class="l" href="#portfolio" data-i18n="nav_portfolio">Portfolio</a></li>
+   <li><a class="l" href="#archive" data-i18n="nav_archive">Archive</a></li>
+   <li><a class="l" href="#contact" data-i18n="nav_contact">Contact</a></li>
+   <li><button class="lang" id="lang" aria-label="Switch language / 切换语言"><span data-l="en">EN</span><span data-l="zh">中文</span></button></li>
+  </ul>
+ </nav>
+ <button class="burger" id="burger" aria-expanded="false" aria-controls="menu" data-i18n="menu">Menu</button>
+</div></header>
+
+<main id="top">
+<section class="hero" style="padding-top:60px">
+ <div class="sun" aria-hidden="true"></div><div class="leaf" aria-hidden="true"></div>
+ <div class="wrap">
+  <h1><span data-i18n="h1a">Hello,</span><span data-i18n="h1b">I’m [Your Name].</span></h1>
+  <div class="hero-row">
+   <div><p data-i18n="hero_sub">Creative thinker, visual storyteller, and digital creator.</p>
+   <div class="cta-row"><a class="btn" href="#portfolio" data-i18n="cta">Explore my work</a>
+   <a class="scroll" href="#portfolio"><span data-i18n="scroll">Scroll</span><i class="arrow" aria-hidden="true">↓</i></a></div></div>
+  </div>
+ </div>
+</section>
+
+<section class="about" id="about"><div class="wrap">
+ <h2 class="sec-title" data-i18n="about_t">About</h2>
+ <div class="about-grid">
+  <div class="photo" role="img" aria-label="Portrait placeholder"><span data-i18n="photo">Portrait placeholder<br>Replace with your photo</span></div>
+  <div>
+   <p class="lead" data-i18n="about_lead">I make things that tell stories: films cut to a rhythm, posters that stop a scroll, articles that explain, and magazines that linger.</p>
+   <p data-i18n="about_bio">[Write your biography here. Share where you are from, what drives your work, and how you approach a new project.]</p>
+   <div class="cols">
+    <div><h3 data-i18n="skills">Skills</h3><div class="cat"><small data-i18n="c1"></small><div class="tools"><span class="tool"><i class="ic" style="--c:#1c1c1c;">✂</i><b>CapCut</b></span><span class="tool"><i class="ic" style="--c:#2b3a4a;">Dv</i><b>DaVinci</b></span></div></div><div class="cat"><small data-i18n="c2"></small><div class="tools"><span class="tool"><i class="ic" style="--c:#00C4CC;">Ca</i><b>Canva</b></span><span class="tool"><i class="ic" style="--c:#31A8FF;color:#001E36">Ps</i><b>Photoshop</b></span></div></div><div class="cat"><small data-i18n="c3"></small><div class="tools"><span class="tool"><i class="ic" style="--c:#185ABD;">W</i><b>Word</b></span><span class="tool"><i class="ic" style="--c:#107C41;">X</i><b>Excel</b></span><span class="tool"><i class="ic" style="--c:#C43E1C;">P</i><b>PowerPoint</b></span></div></div><div class="cat"><small data-i18n="c4"></small><div class="tools"><span class="tool"><i class="ic" style="--c:#10A37F;font-size:10px">GPT</i><b>ChatGPT</b></span><span class="tool"><i class="ic" style="--c:#fff;color:#4285F4">✦</i><b>Gemini</b></span><span class="tool"><i class="ic" style="--c:#D97757;">✳</i><b>Claude</b></span></div></div><div class="cat"><small data-i18n="c5"></small><div class="tools"><span class="tool"><i class="ic" style="--c:#1877F2;font-size:18px">f</i><b>Facebook</b></span><span class="tool"><i class="ic" style="--c:#E4405F;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="#fff" stroke="none"/></svg></i><b>Instagram</b></span><span class="tool"><i class="ic" style="--c:#000;text-shadow:1px 1px #FE2C55,-1px -1px #25F4EE">♪</i><b>TikTok</b></span><span class="tool"><i class="ic" style="--c:#FF2442;font-size:8px">小红书</i><b>小红书</b></span></div></div>
+    <h3 style="margin-top:26px" data-i18n="interests">Creative interests</h3><p style="margin:0;font-size:15px" data-i18n="int_p">[Add your interests: photography, typography, film, travel…]</p></div>
+    <div><h3 data-i18n="exp">Background</h3><ul class="tl">
+     <li><b data-i18n="e1t">[Education — School / Programme]</b><span data-i18n="e1d">[Year – Year]</span></li>
+     <li><b data-i18n="e2t">[Experience — Role / Organisation]</b><span data-i18n="e2d">[Year – Year]</span></li>
+     <li><b data-i18n="e3t">[Experience — Role / Organisation]</b><span data-i18n="e3d">[Year – Present]</span></li></ul></div>
+   </div>
+  </div>
+ </div>
+</div></section>
+
+<section id="portfolio"><div class="wrap">
+ <h2 class="sec-title" data-i18n="port_t">Selected work</h2>
+ <div class="filters" id="pf" role="group" aria-label="Portfolio filter"></div>
+ <div class="grid" id="grid" data-limit="6" aria-live="polite"></div>
+ <div class="more"><a class="btn" href="works.html" data-i18n="viewall">View all work →</a></div>
+</div></section>
+
+<section class="archive" id="archive"><div class="wrap">
+ <h2 class="sec-title" data-i18n="arch_t">Archive</h2>
+ <p style="max-width:560px;margin:-26px 0 44px;color:var(--muted)" data-i18n="arch_p">Every project, newest first. Filter by category or open an entry for details.</p>
+ <div class="filters" id="af" role="group" aria-label="Archive filter"></div>
+ <div id="arch"></div>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap contact-grid">
+ <div>
+  <h2 class="sec-title" data-i18n="con_t">Have a project in mind? Let’s talk.</h2>
+  <a class="mail" href="mailto:tanhuansinsin@gmail.com">tanhuansinsin@gmail.com</a>
+  <p style="font-size:14px;margin-top:10px" data-i18n="mail_note">Placeholder address. Replace it in the code with your own.</p>
+  <ul class="socials"><li data-i18n="soc1">[Instagram]</li><li data-i18n="soc2">[LinkedIn]</li><li data-i18n="soc3">[Behance]</li></ul>
+ </div>
+ <form id="form" novalidate>
+  <label><span data-i18n="f_name">Name</span><input name="name" autocomplete="name"><span class="err" data-for="name"></span></label>
+  <label><span data-i18n="f_email">Email</span><input name="email" type="email" autocomplete="email"><span class="err" data-for="email"></span></label>
+  <label><span data-i18n="f_subj">Subject</span><input name="subject"><span class="err" data-for="subject"></span></label>
+  <label><span data-i18n="f_msg">Message</span><textarea name="message"></textarea><span class="err" data-for="message"></span></label>
+  <button class="btn" type="submit" data-i18n="f_send">Send message</button>
+ </form>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>© <span id="yr"></span> [Your Name]</span><span data-i18n="foot">Designed as a personal creative archive.</span></div></footer>
+
+<dialog id="dlg" aria-label="Project details"><button class="x" id="close" aria-label="Close">✕</button><div class="m" id="mbody"></div></dialog>
+<button class="top" id="top-btn" aria-label="Back to top">↑</button>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
